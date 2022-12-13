@@ -11,21 +11,7 @@ function fazPost(url, body) {
     let dado = this.responseText;
     let resposta= JSON.parse(dado);
 
-    
-    
-// if(this.status == "401"){
-    
-    //   alert(this.responseText );
-      
 
-    // } else if (this.status == "200"){
-    //   alert("CADASTRO REALIZADO COM SUCESSO!");
-
-    // }else if (this.status == "409"){
-
-    //   alert(this.responseText );
-
-    // }
     if(this.status == "201"){
       alert("CADASTRO REALIZADO COM SUCESSO!");
 

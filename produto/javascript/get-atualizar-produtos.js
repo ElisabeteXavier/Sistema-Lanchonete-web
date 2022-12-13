@@ -21,7 +21,6 @@ function criaOption(produto) {
 
 function main() {
    let aux = fazGet("http://127.0.0.1:8080/produtos")
-   console.log("oiiiiiiiii")
    let produtos = JSON.parse(aux);
    console.log(produtos)
    var select = document.getElementById("produto-atualizar")

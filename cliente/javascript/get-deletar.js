@@ -40,8 +40,6 @@ function fazGet(url) {
        let dado = fazGet(`http://127.0.0.1:8080/clientes/${idCliente}`)
        let cliente = JSON.parse(dado);
  
-   
- 
  
  
     }
